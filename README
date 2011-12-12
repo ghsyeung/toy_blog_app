@@ -1,0 +1,11 @@
+Toy Blog App
+
+Trying to put together a simple blog app using MongoDB
+
+uses
+- mongoid
+- activemodel validation, secure password
+- rspec
+
+railscast
+- 275, 219, 270, 238
