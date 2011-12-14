@@ -26,6 +26,20 @@ gem 'bson_ext'
 # To use ActiveModel has_secure_password
 gem 'bcrypt-ruby', '~> 3.0.0'
 
+gem 'rspec-rails', :group => [:development, :test]
+
+group :test do 
+  gem 'webrat'
+  gem 'guard-rspec'
+  gem 'factory_girl_rails'
+  gem 'mongoid-rspec'
+
+  gem 'rb-fsevent'
+  gem 'growl_notify'
+
+  gem 'database_cleaner'
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
